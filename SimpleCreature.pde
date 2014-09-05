@@ -6,7 +6,7 @@ class SimpleCreature extends Creature {
   {
 	this.direction = new PVector(random(-10, 10), random(-10, 10));
 	this.direction.normalize();
-	super(float x, float y);
+	super(x,y);
   }
   
   void draw(float x, float y)
