@@ -1,4 +1,4 @@
-class SimpleCreature(Creature) {
+class SimpleCreature extends Creature {
 
   PVector direction;
   
