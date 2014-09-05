@@ -4,9 +4,9 @@ class SimpleCreature extends Creature {
   
   Creature(float x, float y)
   {
+	super(x,y);
 	this.direction = new PVector(random(-10, 10), random(-10, 10));
 	this.direction.normalize();
-	super(x,y);
   }
   
   void draw(float x, float y)
