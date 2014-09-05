@@ -2,7 +2,7 @@ class SimpleCreature extends Creature {
 
   PVector direction;
   
-  Creature(float x, float y)
+  SimpleCreature(float x, float y)
   {
 	super(x,y);
 	this.direction = new PVector(random(-10, 10), random(-10, 10));
