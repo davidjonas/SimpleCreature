@@ -14,5 +14,6 @@ class SimpleCreature extends Creature {
       fill(this.c);
       ellipse(x,y,size*i, size*i);
     }
+    text(agitation, x+size, y+size);
   }
 }
