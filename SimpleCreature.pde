@@ -7,7 +7,7 @@ class SimpleCreature extends Creature {
   
   void draw(float x, float y)
   {
-    float size = (cos(frameCount/5) * CREATURE_SIZE/2) + (CREATURE_SIZE/2+5);
+    float size = (cos(frameCount/5 + (this.agitation * 5)) * CREATURE_SIZE/2) + (CREATURE_SIZE/2+5);
     for (float i = size; i > 0; i--)
     {
       noStroke();
